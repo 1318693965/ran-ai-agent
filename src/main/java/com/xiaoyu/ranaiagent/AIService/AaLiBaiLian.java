@@ -22,7 +22,7 @@ public class AaLiBaiLian {
                 .build();
         Message userMsg = Message.builder()
                 .role(Role.USER.getValue())
-                .content("你是谁？")
+                .content("我是恁爹？")
                 .build();
         GenerationParam param = GenerationParam.builder()
                 // 若没有配置环境变量，请用百炼API Key将下行替换为：.apiKey("sk-xxx")
@@ -34,14 +34,14 @@ public class AaLiBaiLian {
                 .build();
         return gen.call(param);
     }
-    public static void main(String[] args) {
-        try {
-            GenerationResult result = callWithMessage();
-            System.out.println(JsonUtils.toJson(result));
-        } catch (ApiException | NoApiKeyException | InputRequiredException e) {
-            // 使用日志框架记录异常信息
-            System.err.println("An error occurred while calling the generation service: " + e.getMessage());
-        }
-        System.exit(0);
-    }
+//    public static void main(String[] args) {
+//        try {
+//            GenerationResult result = callWithMessage();
+//            System.out.println(JsonUtils.toJson(result));
+//        } catch (ApiException | NoApiKeyException | InputRequiredException e) {
+//            // 使用日志框架记录异常信息
+//            System.err.println("An error occurred while calling the generation service: " + e.getMessage());
+//        }
+//        System.exit(0);
+//    }
 }

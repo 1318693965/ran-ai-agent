@@ -1,0 +1,8 @@
+user.name=zhr
+user.email=hranzhang@163.com
+credential.helper=store
+difftool.sourcetree.cmd='' 
+mergetool.sourcetree.cmd='' 
+mergetool.sourcetree.trustexitcode=true
+credential.http://119.29.81.26:6688.provider=generic
+credential.http://119.29.53.66:6688.provider=generic

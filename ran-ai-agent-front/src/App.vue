@@ -5,7 +5,6 @@ import { healthCheck } from '@/api/jiankangjianchajiekou.ts'
 healthCheck().then((res) => {
   console.log(res)
 })
-
 </script>
 
 <template>

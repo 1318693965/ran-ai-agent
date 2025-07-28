@@ -8,14 +8,14 @@ defineComponent({
 
 <template>
   <div class="home-container">
-    <a-card title="欢迎来到AI零代码生成平台" class="welcome-card">
+    <a-card title="欢迎来到AI超级智能体" class="welcome-card">
       <template #extra>
         <a-tag color="blue">新功能</a-tag>
       </template>
 
       <div class="welcome-content">
         <a-typography>
-          <a-typography-title :level="2"> 欢迎使用AI零代码生成平台 </a-typography-title>
+          <a-typography-title :level="2"> 欢迎使用AI超级智能体 </a-typography-title>
 
           <a-typography-paragraph>
             这是一个基于 Vue 3 + TypeScript + Ant Design Vue 构建的现代化前端项目。

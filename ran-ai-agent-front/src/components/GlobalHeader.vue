@@ -2,10 +2,10 @@
   <a-layout-header class="global-header">
     <div class="header-container">
       <!-- 左侧 Logo 和标题 -->
-      <div class="header-left">
+      <div class="header-left">AboutView.vue"
         <div class="logo-container">
           <img src="@/assets/logo.png" alt="Logo" class="logo" />
-          <h1 class="site-title">AI零代码生成平台</h1>
+          <h1 class="site-title">AI超级智能体</h1>
         </div>
 
         <!-- 菜单项 -->
@@ -140,7 +140,7 @@ const handleSettings = () => {
 const switchTheme = (theme: string) => {
   console.log('切换主题:', theme)
   message.info(`切换到${theme === 'default' ? '默认' : theme === 'dark' ? '暗黑' : '紧凑'}主题`)
-  
+
   // 实际切换主题的逻辑
   if (theme === 'dark') {
     document.body.setAttribute('data-theme', 'dark')
@@ -149,7 +149,7 @@ const switchTheme = (theme: string) => {
   } else {
     document.body.removeAttribute('data-theme')
   }
-  
+
   // 这里可以添加更复杂的主题切换逻辑
 }
 </script>
